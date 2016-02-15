@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LibraryManagementModelStoreContainer" CdmEntityContainer="library_managementEntities">
+    <EntitySetMapping Name="cau_hinh">
+      <EntityTypeMapping TypeName="LibraryManagementModel.cau_hinh">
+        <MappingFragment StoreEntitySet="cau_hinh">
+          <ScalarProperty Name="MaCauHinh" ColumnName="MaCauHinh" />
+          <ScalarProperty Name="TenCauHinh" ColumnName="TenCauHinh" />
+          <ScalarProperty Name="GiaTri" ColumnName="GiaTri" />
+          <ScalarProperty Name="GiaTriMoRong" ColumnName="GiaTriMoRong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="doc_gia">
+      <EntityTypeMapping TypeName="LibraryManagementModel.doc_gia">
+        <MappingFragment StoreEntitySet="doc_gia">
+          <ScalarProperty Name="DocGiaID" ColumnName="DocGiaID" />
+          <ScalarProperty Name="TenDocGia" ColumnName="TenDocGia" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+          <ScalarProperty Name="NamSinh" ColumnName="NamSinh" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loai_sach">
+      <EntityTypeMapping TypeName="LibraryManagementModel.loai_sach">
+        <MappingFragment StoreEntitySet="loai_sach">
+          <ScalarProperty Name="LoaiSachID" ColumnName="LoaiSachID" />
+          <ScalarProperty Name="TenLoaiSach" ColumnName="TenLoaiSach" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mas">
+      <EntityTypeMapping TypeName="LibraryManagementModel.ma">
+        <MappingFragment StoreEntitySet="ma">
+          <ScalarProperty Name="MaID" ColumnName="MaID" />
+          <ScalarProperty Name="TenMa" ColumnName="TenMa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="muon_tra">
+      <EntityTypeMapping TypeName="LibraryManagementModel.muon_tra">
+        <MappingFragment StoreEntitySet="muon_tra">
+          <ScalarProperty Name="MuonTraID" ColumnName="MuonTraID" />
+          <ScalarProperty Name="SachID" ColumnName="SachID" />
+          <ScalarProperty Name="DocGiaID" ColumnName="DocGiaID" />
+          <ScalarProperty Name="NgayMuon" ColumnName="NgayMuon" />
+          <ScalarProperty Name="NgayHenTra" ColumnName="NgayHenTra" />
+          <ScalarProperty Name="GiaHan" ColumnName="GiaHan" />
+          <ScalarProperty Name="NgayGiaHan" ColumnName="NgayGiaHan" />
+          <ScalarProperty Name="TinhTrangMuonTraID" ColumnName="TinhTrangMuonTraID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nguoi_su_dung">
+      <EntityTypeMapping TypeName="LibraryManagementModel.nguoi_su_dung">
+        <MappingFragment StoreEntitySet="nguoi_su_dung">
+          <ScalarProperty Name="NguoiSuDungID" ColumnName="NguoiSuDungID" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+          <ScalarProperty Name="NgayHoatDongCuoi" ColumnName="NgayHoatDongCuoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nha_xuat_ban">
+      <EntityTypeMapping TypeName="LibraryManagementModel.nha_xuat_ban">
+        <MappingFragment StoreEntitySet="nha_xuat_ban">
+          <ScalarProperty Name="NhaXuatBanID" ColumnName="NhaXuatBanID" />
+          <ScalarProperty Name="TenNhaXuatBan" ColumnName="TenNhaXuatBan" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="saches">
+      <EntityTypeMapping TypeName="LibraryManagementModel.sach">
+        <MappingFragment StoreEntitySet="sach">
+          <ScalarProperty Name="SachID" ColumnName="SachID" />
+          <ScalarProperty Name="TenSach" ColumnName="TenSach" />
+          <ScalarProperty Name="LoaiSachID" ColumnName="LoaiSachID" />
+          <ScalarProperty Name="TacGiaID" ColumnName="TacGiaID" />
+          <ScalarProperty Name="TacGiaDichID" ColumnName="TacGiaDichID" />
+          <ScalarProperty Name="NhaXuatBanID" ColumnName="NhaXuatBanID" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="TinhTrangID" ColumnName="TinhTrangID" />
+          <ScalarProperty Name="NamXuatBan" ColumnName="NamXuatBan" />
+          <ScalarProperty Name="NoiXuatBan" ColumnName="NoiXuatBan" />
+          <ScalarProperty Name="SoVaoSoTongQuat" ColumnName="SoVaoSoTongQuat" />
+          <ScalarProperty Name="NgayVaoSoTongQuat" ColumnName="NgayVaoSoTongQuat" />
+          <ScalarProperty Name="NguonNhap" ColumnName="NguonNhap" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="NguonXuat" ColumnName="NguonXuat" />
+          <ScalarProperty Name="NgayXuat" ColumnName="NgayXuat" />
+          <ScalarProperty Name="MaVach" ColumnName="MaVach" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="TomTatNoiDung" ColumnName="TomTatNoiDung" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tac_gia">
+      <EntityTypeMapping TypeName="LibraryManagementModel.tac_gia">
+        <MappingFragment StoreEntitySet="tac_gia">
+          <ScalarProperty Name="TacGiaID" ColumnName="TacGiaID" />
+          <ScalarProperty Name="TenTacGia" ColumnName="TenTacGia" />
+          <ScalarProperty Name="Mota" ColumnName="Mota" />
+          <ScalarProperty Name="NgayTao" ColumnName="NgayTao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tinh_trang_muon_tra">
+      <EntityTypeMapping TypeName="LibraryManagementModel.tinh_trang_muon_tra">
+        <MappingFragment StoreEntitySet="tinh_trang_muon_tra">
+          <ScalarProperty Name="TinhTrangMuonTraID" ColumnName="TinhTrangMuonTraID" />
+          <ScalarProperty Name="TenTinhTrang" ColumnName="TenTinhTrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tinh_trang_sach">
+      <EntityTypeMapping TypeName="LibraryManagementModel.tinh_trang_sach">
+        <MappingFragment StoreEntitySet="tinh_trang_sach">
+          <ScalarProperty Name="TenTinhTrang" ColumnName="TenTinhTrang" />
+          <ScalarProperty Name="TinhTrangSachID" ColumnName="TinhTrangSachID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

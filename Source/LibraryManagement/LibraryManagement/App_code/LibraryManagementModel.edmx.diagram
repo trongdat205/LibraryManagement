@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f0e7ca270e643b8a0f98bebc1461af1" Name="Diagram1">
+        <EntityTypeShape EntityType="LibraryManagementModel.cau_hinh" Width="1.5" PointX="5.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.doc_gia" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.loai_sach" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.ma" Width="1.5" PointX="7.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.muon_tra" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.nguoi_su_dung" Width="1.5" PointX="7.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.nha_xuat_ban" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.sach" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.tac_gia" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.tinh_trang_muon_tra" Width="1.5" PointX="7.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="LibraryManagementModel.FK_muon_tra_doc_gia" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_sach_loai_sach" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_muon_tra_sach" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_sach_nha_xuat_ban" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_sach" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_sach_tac_gia" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="LibraryManagementModel.tinh_trang_sach" Width="1.5" PointX="10.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
