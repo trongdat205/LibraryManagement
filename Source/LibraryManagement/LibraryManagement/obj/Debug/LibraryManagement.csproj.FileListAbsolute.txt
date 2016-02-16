@@ -17,3 +17,6 @@ D:\Project .Net\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.
 D:\Project .Net\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.MasterPage.resources
 D:\Project .Net\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.BookBorrow.resources
 D:\Project .Net\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.BookSearch.resources
+D:\Project .Net\LibraryManagement\Source\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe.config
+D:\Project .Net\LibraryManagement\Source\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.exe
+D:\Project .Net\LibraryManagement\Source\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
