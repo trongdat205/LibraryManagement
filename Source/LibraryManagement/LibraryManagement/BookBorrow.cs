@@ -17,6 +17,7 @@ namespace LibraryManagement
             InitializeComponent();
             showAdminMenu();
             setTitle("Mượn - Trả Sách");
+			//////
         }
     }
 }
